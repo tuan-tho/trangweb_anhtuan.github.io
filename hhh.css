@@ -1,0 +1,100 @@
+*{box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+}
+.banner{
+    background-color:aquamarine;
+    border: 1px rebeccapurple solid;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 98%;
+    margin: 0px auto;
+}
+.name_banner{font-size: 50px;
+color: white;
+font-weight: bold;
+width: 98%;
+} 
+.h1{
+    color:black;
+    background-color:azure;
+    border: 1px orange;
+    width: 750px;
+    height: 50px;
+    margin: 0px auto;
+    padding: 20px 10px 20px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.root>li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.root>li>a{
+    text-decoration: none;
+    color: black(247,247,0);
+    padding: 0px 15px 0px 15px;
+    display: block;line-height: 40px;
+}
+.menu_web{
+    background-color:blanchedalmond;
+    width: 98%;
+    height: 40px;
+    margin: 0px auto;
+}
+.root>li>a.hover{
+    background-color:beige;
+    color: blue;
+    transform: ease-in 0,35s;
+}
+.submenu{
+    width: 200px;
+    background-color: blanchedalmond;
+    display: none;
+    min-height: 80px;
+    position: absolute;
+}
+.submenu li{list-style: none;}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: black(247,247,0);
+    display: block;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    text-indent: 15px;
+}
+.root li:hover .submenu{
+    display: block;
+    background-color:blanchedalmond;
+    color:darksalmon ;
+    transform:ease-in 0,35s ;
+}
+.submenu li a:hover{
+    background-color: cadetblue;
+    color: darksalmon;
+   transform:  ease-in 0,35s;
+}
+.noidung{
+    border: 1px solid #ccc;
+    width: 98%;
+    text-align: center;
+    margin: 0px auto;
+}
+.di,td {border: 1px solid #ccc;
+}
+.sp1{
+    width: 25%;height: 25%;
+}
+.a1{width: 70px;height: 60px;}
+.giacu{color: red;
+font-weight: bold;}
+.lichsu{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
